@@ -20,7 +20,12 @@ PRODUCT_PACKAGES := \
     LiveWallpapersPicker \
     MagicSmokeWallpapers \
     VisualizationWallpapers \
-    librs_jni
+    librs_jni \
+    TimeService \
+    shutdownlistener \
+    qcnvitems \
+    libtime_genoff \
+    libTimeService
 
 # Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES := \
